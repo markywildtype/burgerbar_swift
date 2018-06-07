@@ -12,7 +12,9 @@ import XCTest
 class MealTest: XCTestCase {
     
     var veggieburger: Burger!
+    var cheeseburger: Burger!
     var chips: Side!
+    var sweetPotatoFries: Side!
     var coke: Beverage!
     var juice: Beverage!
     var ketchup: Condiment!
@@ -25,14 +27,17 @@ class MealTest: XCTestCase {
     override func setUp() {
         super.setUp()
         veggieburger = Burger(type: .veggieburger)
+        cheeseburger = Burger(type: .cheeseburger)
         chips = Chips()
+        sweetPotatoFries = SweetPotatoFries()
         coke = Soda(type: .cola, size: .small)
+        juice = Juice(type: .mango)
         ketchup = Condiment(type: .ketchup)
         mayonnaise = Condiment(type: .mayonnaise)
         vinegar = Condiment(type: .vinegar)
         condiments = [ketchup, mayonnaise, vinegar]
         meal = Meal(burger: veggieburger, side: chips, beverage: coke)
-        meal2 = Meal(burger: veggieburger, side: chips, beverage: coke, condiments: condiments)
+        meal2 = Meal(burger: cheeseburger, side: sweetPotatoFries, beverage: juice, condiments: condiments)
     }
     
     override func tearDown() {
@@ -70,9 +75,8 @@ class MealTest: XCTestCase {
     }
     
     func testMealHasAPrice() {
-//        XCTAssertEqual(meal.getPrice(), 5.95)
-//        XCTAssertEqual(meal2.getPrice(), 6.85)
-        XCTAssertEqual(meal2.price, 6.85)
+        XCTAssertEqual(meal.getPrice(), 5.95)
+        XCTAssertEqual(meal2.getPrice(), 8.85)
     }
     
 }

@@ -10,12 +10,23 @@ import Foundation
 
 class Burger: MealItem {
     
+    var description: String
     var burgerType: BurgerType
     var price: Float
     var inMeal: Bool
     
     init(type: BurgerType) {
         burgerType = type
+        switch burgerType {
+        case .cheeseburger:
+            description = "Cheeseburger"
+        case .chickenburger:
+            description = "Chickenburger"
+        case .hamburger:
+            description = "Hamburger"
+        case .veggieburger:
+            description = "Veggieburger"
+        }
         price = burgerType.rawValue
         inMeal = false
     }

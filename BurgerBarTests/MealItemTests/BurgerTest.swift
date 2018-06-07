@@ -29,6 +29,11 @@ class BurgerTest: XCTestCase {
         XCTAssertEqual(burger.burgerType, .cheeseburger)
     }
     
+    func testHasDescription() {
+        XCTAssertEqual(burger.description, "Cheeseburger")
+        XCTAssertEqual(burger2.description, "Chickenburger")
+    }
+    
     func testHasPrice() {
         XCTAssertEqual(burger.price, 6.45)
         XCTAssertEqual(burger2.price, 6.95)

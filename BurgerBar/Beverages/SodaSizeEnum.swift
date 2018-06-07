@@ -1,5 +1,5 @@
 //
-//  SodaEnum.swift
+//  SodaSizeEnum.swift
 //  BurgerBar
 //
 //  Created by Mark Blanford on 07/06/2018.
@@ -8,11 +8,11 @@
 
 import Foundation
 
-enum SodaType {
+enum SodaSize {
     
-    case cola
-    case lemonade
-    case irnBru
-    case fanta
+    case small
+    case medium
+    case large
+    case extraLarge
     
 }

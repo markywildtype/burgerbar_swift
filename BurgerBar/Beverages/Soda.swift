@@ -10,10 +10,12 @@ import Foundation
 
 class Soda {
     
-    let beverageType: SodaType
+    let sodaType: SodaType
+    let sodaSize: SodaSize
     
-    init(type: SodaType) {
-        beverageType = type
+    init(type: SodaType, size: SodaSize) {
+        sodaType = type
+        sodaSize = size
     }
     
 }

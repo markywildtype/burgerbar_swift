@@ -20,7 +20,8 @@
 		CC181D6420C922E6003296F3 /* ChipsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6320C922E6003296F3 /* ChipsTest.swift */; };
 		CC181D6720C92871003296F3 /* Soda.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6620C92871003296F3 /* Soda.swift */; };
 		CC181D6920C92887003296F3 /* SodaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6820C92887003296F3 /* SodaTest.swift */; };
-		CC181D6F20C92973003296F3 /* SodaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6E20C92973003296F3 /* SodaEnum.swift */; };
+		CC181D7120C92AF3003296F3 /* SodaTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D7020C92AF3003296F3 /* SodaTypeEnum.swift */; };
+		CC181D7320C92B17003296F3 /* SodaSizeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D7220C92B17003296F3 /* SodaSizeEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +52,8 @@
 		CC181D6320C922E6003296F3 /* ChipsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsTest.swift; sourceTree = "<group>"; };
 		CC181D6620C92871003296F3 /* Soda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soda.swift; sourceTree = "<group>"; };
 		CC181D6820C92887003296F3 /* SodaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaTest.swift; sourceTree = "<group>"; };
-		CC181D6E20C92973003296F3 /* SodaEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaEnum.swift; sourceTree = "<group>"; };
+		CC181D7020C92AF3003296F3 /* SodaTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaTypeEnum.swift; sourceTree = "<group>"; };
+		CC181D7220C92B17003296F3 /* SodaSizeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaSizeEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				CC181D6620C92871003296F3 /* Soda.swift */,
-				CC181D6E20C92973003296F3 /* SodaEnum.swift */,
+				CC181D7020C92AF3003296F3 /* SodaTypeEnum.swift */,
+				CC181D7220C92B17003296F3 /* SodaSizeEnum.swift */,
 			);
 			path = Beverages;
 			sourceTree = "<group>";
@@ -248,10 +251,11 @@
 			files = (
 				CC181D6720C92871003296F3 /* Soda.swift in Sources */,
 				CC181D5E20C6C066003296F3 /* CondimentEnum.swift in Sources */,
+				CC181D7320C92B17003296F3 /* SodaSizeEnum.swift in Sources */,
+				CC181D7120C92AF3003296F3 /* SodaTypeEnum.swift in Sources */,
 				CC181D6220C9229F003296F3 /* Chips.swift in Sources */,
 				CC181D3520C6BAF0003296F3 /* ViewController.swift in Sources */,
 				CC181D3320C6BAEF003296F3 /* AppDelegate.swift in Sources */,
-				CC181D6F20C92973003296F3 /* SodaEnum.swift in Sources */,
 				CC181D5520C6BB83003296F3 /* Side.swift in Sources */,
 				CC181D5920C6BDC4003296F3 /* Condiment.swift in Sources */,
 			);

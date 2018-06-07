@@ -15,7 +15,7 @@ class SodaTest: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        soda = Soda(type: .cola)
+        soda = Soda(type: .cola, size: .medium)
     }
     
     override func tearDown() {
@@ -24,8 +24,14 @@ class SodaTest: XCTestCase {
     }
     
     func testHasSodaType() {
-        XCTAssertEqual(soda.beverageType, .cola)
+        XCTAssertEqual(soda.sodaType, .cola)
     }
     
+    func testHasSodaSize() {
+        XCTAssertEqual(soda.sodaSize, .medium)
+    }
     
+    func testHasPrice() {
+        XCTAssertEqual(soda.price, 1.50)
+    }
 }

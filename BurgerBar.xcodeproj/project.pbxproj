@@ -22,6 +22,9 @@
 		CC181D7120C92AF3003296F3 /* SodaTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D7020C92AF3003296F3 /* SodaTypeEnum.swift */; };
 		CC181D7320C92B17003296F3 /* SodaSizeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D7220C92B17003296F3 /* SodaSizeEnum.swift */; };
 		CC181D7520C9331F003296F3 /* MealItem.Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D7420C9331F003296F3 /* MealItem.Protocol.swift */; };
+		CC70132D20C946C9004190AB /* Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70132C20C946C9004190AB /* Water.swift */; };
+		CC70132F20C94767004190AB /* Juice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70132E20C94767004190AB /* Juice.swift */; };
+		CC70133120C94779004190AB /* WaterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133020C94779004190AB /* WaterTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		CC181D7020C92AF3003296F3 /* SodaTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaTypeEnum.swift; sourceTree = "<group>"; };
 		CC181D7220C92B17003296F3 /* SodaSizeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaSizeEnum.swift; sourceTree = "<group>"; };
 		CC181D7420C9331F003296F3 /* MealItem.Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealItem.Protocol.swift; sourceTree = "<group>"; };
+		CC70132C20C946C9004190AB /* Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water.swift; sourceTree = "<group>"; };
+		CC70132E20C94767004190AB /* Juice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Juice.swift; sourceTree = "<group>"; };
+		CC70133020C94779004190AB /* WaterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 				CC181D5620C6BDA5003296F3 /* CondimentTest.swift */,
 				CC181D6320C922E6003296F3 /* ChipsTest.swift */,
 				CC181D6820C92887003296F3 /* SodaTest.swift */,
+				CC70133020C94779004190AB /* WaterTest.swift */,
 			);
 			path = BurgerBarTests;
 			sourceTree = "<group>";
@@ -143,6 +150,8 @@
 				CC181D6620C92871003296F3 /* Soda.swift */,
 				CC181D7020C92AF3003296F3 /* SodaTypeEnum.swift */,
 				CC181D7220C92B17003296F3 /* SodaSizeEnum.swift */,
+				CC70132C20C946C9004190AB /* Water.swift */,
+				CC70132E20C94767004190AB /* Juice.swift */,
 			);
 			path = Beverages;
 			sourceTree = "<group>";
@@ -252,7 +261,9 @@
 				CC181D6720C92871003296F3 /* Soda.swift in Sources */,
 				CC181D5E20C6C066003296F3 /* CondimentEnum.swift in Sources */,
 				CC181D7320C92B17003296F3 /* SodaSizeEnum.swift in Sources */,
+				CC70132D20C946C9004190AB /* Water.swift in Sources */,
 				CC181D7120C92AF3003296F3 /* SodaTypeEnum.swift in Sources */,
+				CC70132F20C94767004190AB /* Juice.swift in Sources */,
 				CC181D6220C9229F003296F3 /* Chips.swift in Sources */,
 				CC181D3520C6BAF0003296F3 /* ViewController.swift in Sources */,
 				CC181D3320C6BAEF003296F3 /* AppDelegate.swift in Sources */,
@@ -266,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC181D6420C922E6003296F3 /* ChipsTest.swift in Sources */,
+				CC70133120C94779004190AB /* WaterTest.swift in Sources */,
 				CC181D6920C92887003296F3 /* SodaTest.swift in Sources */,
 				CC181D5720C6BDA5003296F3 /* CondimentTest.swift in Sources */,
 			);

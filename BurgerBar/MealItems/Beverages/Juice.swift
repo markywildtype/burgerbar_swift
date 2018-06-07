@@ -10,6 +10,7 @@ import Foundation
 
 class Juice: Beverage, MealItem {
     
+    var description: String
     let juiceType: JuiceType
     var price: Float
     var inMeal: Bool
@@ -18,6 +19,7 @@ class Juice: Beverage, MealItem {
         price = 1.30
         inMeal = false
         juiceType = type
+        description = juiceType.rawValue
     }
     
     func addToMeal() {

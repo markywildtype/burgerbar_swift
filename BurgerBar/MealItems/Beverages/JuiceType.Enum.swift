@@ -8,11 +8,11 @@
 
 import Foundation
 
-enum JuiceType {
+enum JuiceType: String {
     
-    case orange
-    case apple
-    case pineapple
-    case mango
+    case orange = "Orange juice"
+    case apple = "Apple juice"
+    case pineapple = "Pineapple juice"
+    case mango = "Mango juice"
     
 }

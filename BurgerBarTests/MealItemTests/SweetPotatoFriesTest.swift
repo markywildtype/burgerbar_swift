@@ -23,6 +23,10 @@ class SweetPotatoFriesTest: XCTestCase {
         super.tearDown()
     }
     
+    func testHasDescription() {
+        XCTAssertEqual(sweetPotatoFries.description, "Sweet potato fries")
+    }
+    
     func testInMealStatusStartsFalse() {
         XCTAssertFalse(sweetPotatoFries.inMeal)
     }

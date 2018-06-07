@@ -23,6 +23,10 @@ class PotatoWedgesTest: XCTestCase {
         super.tearDown()
     }
     
+    func testHasDescription() {
+        XCTAssertEqual(potatoWedges.description, "Potato wedges")
+    }
+    
     func testInMealStatusStartsFalse() {
         XCTAssertFalse(potatoWedges.inMeal)
     }

@@ -8,11 +8,11 @@
 
 import Foundation
 
-enum SodaType {
+enum SodaType: String {
     
-    case cola
-    case lemonade
-    case irnBru
-    case fanta
+    case cola = "Coke"
+    case lemonade = "Lemonade"
+    case irnBru = "Irn Bru"
+    case fanta = "Fanta"
     
 }

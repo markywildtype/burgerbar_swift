@@ -10,6 +10,7 @@ import Foundation
 
 class Soda: Beverage, MealItem {
     
+    var description: String
     var sodaType: SodaType
     var sodaSize: SodaSize
     var price: Float 
@@ -20,6 +21,7 @@ class Soda: Beverage, MealItem {
         sodaSize = size
         price = sodaSize.rawValue
         inMeal = false
+        description = sodaType.rawValue
     }
     
     func addToMeal() {

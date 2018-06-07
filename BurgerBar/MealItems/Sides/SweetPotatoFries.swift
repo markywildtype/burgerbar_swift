@@ -10,10 +10,12 @@ import Foundation
 
 class SweetPotatoFries: Side, MealItem {
     
+    let description: String
     var price: Float
     var inMeal: Bool
     
     init() {
+        description = "Sweet potato fries"
         price = 2.99
         inMeal = false
     }

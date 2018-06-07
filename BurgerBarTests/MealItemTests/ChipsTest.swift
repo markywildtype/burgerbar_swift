@@ -23,6 +23,10 @@ class ChipsTest: XCTestCase {
         super.tearDown()
     }
     
+    func testHasDescription() {
+        XCTAssertEqual(chips.description, "Chips")
+    }
+    
     func testInMealStatusStartsFalse() {
         XCTAssertFalse(chips.inMeal)
     }

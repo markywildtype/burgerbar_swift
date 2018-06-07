@@ -34,6 +34,13 @@ class MealTest: XCTestCase {
         XCTAssertEqual(meal.chosenBurger.burgerType, .veggieburger)
     }
     
+    func testMealHasSide() {
+        XCTAssertNotNil(meal.chosenSide)
+        XCTAssertEqual(meal.chosenSide.description, "Chips")
+    }
     
-    
+    func testMealHasBeverage() {
+        XCTAssertNotNil(meal.chosenBeverage)
+        XCTAssertEqual(meal.chosenBeverage.description, "Coke")
+    }
 }

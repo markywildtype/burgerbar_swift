@@ -12,6 +12,11 @@ class Soda {
     
     let sodaType: SodaType
     let sodaSize: SodaSize
+    var price: Float {
+        get {
+            return sodaSize.rawValue
+        }
+    }
     
     init(type: SodaType, size: SodaSize) {
         sodaType = type

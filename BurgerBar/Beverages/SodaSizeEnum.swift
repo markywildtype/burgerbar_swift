@@ -8,11 +8,11 @@
 
 import Foundation
 
-enum SodaSize {
+enum SodaSize: Float {
     
-    case small
-    case medium
-    case large
-    case extraLarge
+    case small = 1.00
+    case medium = 1.50
+    case large = 2.00
+    case extraLarge = 2.50
     
 }

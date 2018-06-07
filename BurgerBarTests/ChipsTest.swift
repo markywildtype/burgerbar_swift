@@ -23,7 +23,7 @@ class ChipsTest: XCTestCase {
         super.tearDown()
     }
     
-    func testIInMealStatusStartsFalse() {
+    func testInMealStatusStartsFalse() {
         XCTAssertFalse(chips.inMeal)
     }
 

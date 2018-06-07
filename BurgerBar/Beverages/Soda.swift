@@ -12,15 +12,19 @@ class Soda {
     
     let sodaType: SodaType
     let sodaSize: SodaSize
-    var price: Float {
-        get {
-            return sodaSize.rawValue
-        }
-    }
+    var price: Float 
+    var inMeal: Bool
     
     init(type: SodaType, size: SodaSize) {
         sodaType = type
         sodaSize = size
+        price = sodaSize.rawValue
+        inMeal = false
+    }
+    
+    func addToMeal() {
+        inMeal = true
+        price = price - 0.40
     }
     
 }

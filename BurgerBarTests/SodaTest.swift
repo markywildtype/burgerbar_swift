@@ -34,4 +34,19 @@ class SodaTest: XCTestCase {
     func testHasPrice() {
         XCTAssertEqual(soda.price, 1.50)
     }
+    
+    func testInMealStatusStartsFalse() {
+        XCTAssertFalse(soda.inMeal)
+    }
+    
+    func testAddingToMealUpdatesInMealStatus() {
+        soda.addToMeal()
+        XCTAssertTrue(soda.inMeal)
+    }
+    
+    func testAddingToMealUpdatesPrice() {
+        soda.addToMeal()
+        XCTAssertEqual(soda.price, 1.10)
+    }
+    
 }

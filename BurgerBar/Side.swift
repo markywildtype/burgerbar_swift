@@ -11,8 +11,16 @@ import Foundation
 class Side {
     
     var price: Float
+    var inMeal: Bool
     
     init(){
         price = 2.99
+        inMeal = false
     }
+    
+    func addedToMeal(){
+        inMeal = true
+        price = 1.50
+    }
+    
 }

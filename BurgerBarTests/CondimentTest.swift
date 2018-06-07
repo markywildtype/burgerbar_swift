@@ -11,25 +11,29 @@ import XCTest
 
 class CondimentTest: XCTestCase {
     
+    var condiment: Condiment!
+    var condiment2: Condiment!
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+            condiment = Condiment(type: .ketchup)
+            condiment2 = Condiment(type: .mayonnaise)
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        condiment = nil
+        condiment2 = nil
         super.tearDown()
     }
     
     func testCanUpdatePrice() {
-        let condiment = Condiment(type: .ketchup)
-        condiment.updatePrice(newPrice: 0.75)
-        XCTAssertEqual(condiment.price, 0.75)
+        condiment.addedToMeal()
+        XCTAssertEqual(condiment.price, 0.30)
     }
     
     func testHasCondimentType() {
-        let condiment = Condiment(type: .mayonnaise)
-        XCTAssertEqual(condiment.condimentType, .mayonnaise)
+        XCTAssertEqual(condiment.condimentType, .ketchup)
+        XCTAssertEqual(condiment2.condimentType, .mayonnaise)
     }
     
 }

@@ -11,15 +11,18 @@ import Foundation
 class Condiment {
     
     var price: Float
+    var inMeal: Bool 
     let condimentType: CondimentType
     
     init(type: CondimentType){
         condimentType = type
         price = 0.50
+        inMeal = false
     }
  
-    func updatePrice(newPrice: Float) {
-        price = newPrice
+    func addedToMeal() {
+        inMeal = true
+        price = 0.30
     }
     
 }

@@ -11,13 +11,18 @@ import XCTest
 
 class MealTest: XCTestCase {
     
-    var burger: Burger!
+    var veggieburger: Burger!
+    var chips: Side!
+    var coke: Beverage!
+    var juice: Beverage!
     var meal: Meal!
     
     override func setUp() {
         super.setUp()
-        burger = Burger(type: .veggieburger)
-        meal = Meal(burger: burger)
+        veggieburger = Burger(type: .veggieburger)
+        chips = Chips()
+        coke = Soda(type: .cola, size: .small)
+        meal = Meal(burger: veggieburger, side: chips, beverage: coke)
     }
     
     override func tearDown() {
@@ -26,7 +31,9 @@ class MealTest: XCTestCase {
     }
     
     func testMealHasBurger() {
-        XCTAssertEqual(meal.items.count, 1)
+        XCTAssertEqual(meal.chosenBurger.burgerType, .veggieburger)
     }
+    
+    
     
 }

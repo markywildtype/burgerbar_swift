@@ -8,10 +8,10 @@
 
 import Foundation
 
-class Soda: MealItem {
+class Soda: Beverage, MealItem {
     
-    let sodaType: SodaType
-    let sodaSize: SodaSize
+    var sodaType: SodaType
+    var sodaSize: SodaSize
     var price: Float 
     var inMeal: Bool
     

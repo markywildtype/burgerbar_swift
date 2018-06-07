@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Water: MealItem {
+class Water: Beverage, MealItem {
     
     var price: Float
     var inMeal: Bool

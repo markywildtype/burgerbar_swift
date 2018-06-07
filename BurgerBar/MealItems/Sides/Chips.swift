@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Chips: MealItem {
+class Chips: Side, MealItem {
  
     var price: Float
     var inMeal: Bool

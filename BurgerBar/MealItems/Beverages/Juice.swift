@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Juice: MealItem {
+class Juice: Beverage, MealItem {
     
     let juiceType: JuiceType
     var price: Float

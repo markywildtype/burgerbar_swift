@@ -8,7 +8,7 @@
 
 import Foundation
 
-class PotatoWedges: MealItem {
+class PotatoWedges: Side, MealItem {
     
     var price: Float
     var inMeal: Bool

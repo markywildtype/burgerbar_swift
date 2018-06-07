@@ -10,10 +10,14 @@ import Foundation
 
 class Meal {
     
-    let items: [MealItem]
+    let chosenBurger: Burger
+    let chosenSide: Side
+    let chosenBeverage: Beverage
     
-    init(burger: Burger) {
-        items = [burger]
+    init(burger: Burger, side: Side, beverage: Beverage) {
+        chosenBurger = burger
+        chosenSide = side
+        chosenBeverage = beverage
     }
     
 }

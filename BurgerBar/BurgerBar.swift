@@ -11,13 +11,21 @@ import Foundation
 class BurgerBar {
     
     var shoppingCart: [MealItem]
+    var mealCart: [Meal]
+//    var mealTotal: Float
     
     init() {
         shoppingCart = []
+        mealCart = []
+//        mealTotal = 0.00
     }
     
-    func addToCart(item: MealItem) {
+    func addIndividualItemToCart(item: MealItem) {
         shoppingCart.append(item)
+    }
+    
+    func addMeal(meal: Meal) {
+        mealCart.append(meal)
     }
     
     func getCartTotal() -> Float {
@@ -26,7 +34,15 @@ class BurgerBar {
         for item in shoppingCart {
             cartTotal += item.price
         }
+        
+        for meal in mealCart {
+            cartTotal += meal.getPrice()
+        }
         return cartTotal
     }
     
+    func emptyCart(){
+        shoppingCart = []
+        mealCart = []
+    }
 }

@@ -132,14 +132,14 @@
 			isa = PBXGroup;
 			children = (
 				CC70134220C94FA4004190AB /* MealItems */,
-				CC181D3220C6BAEF003296F3 /* AppDelegate.swift */,
 				CC70134020C94F79004190AB /* Meal.swift */,
+				CC70135120C984A0004190AB /* BurgerBar.swift */,
+				CC181D3220C6BAEF003296F3 /* AppDelegate.swift */,
 				CC181D3420C6BAF0003296F3 /* ViewController.swift */,
 				CC181D3620C6BAF0003296F3 /* Main.storyboard */,
 				CC181D3920C6BAF1003296F3 /* Assets.xcassets */,
 				CC181D3B20C6BAF1003296F3 /* LaunchScreen.storyboard */,
 				CC181D3E20C6BAF1003296F3 /* Info.plist */,
-				CC70135120C984A0004190AB /* BurgerBar.swift */,
 			);
 			path = BurgerBar;
 			sourceTree = "<group>";

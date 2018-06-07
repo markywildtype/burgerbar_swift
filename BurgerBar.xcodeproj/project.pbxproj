@@ -29,6 +29,8 @@
 		CC70133520C94B08004190AB /* JuiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133420C94B08004190AB /* JuiceTest.swift */; };
 		CC70133720C94D11004190AB /* SweetPotatoFries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133620C94D11004190AB /* SweetPotatoFries.swift */; };
 		CC70133B20C94DA5004190AB /* SweetPotatoFriesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133A20C94DA5004190AB /* SweetPotatoFriesTest.swift */; };
+		CC70133D20C94E3E004190AB /* PotatoWedges.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133C20C94E3E004190AB /* PotatoWedges.swift */; };
+		CC70133F20C94E8B004190AB /* PotatoWedgesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133E20C94E8B004190AB /* PotatoWedgesTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		CC70133420C94B08004190AB /* JuiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuiceTest.swift; sourceTree = "<group>"; };
 		CC70133620C94D11004190AB /* SweetPotatoFries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetPotatoFries.swift; sourceTree = "<group>"; };
 		CC70133A20C94DA5004190AB /* SweetPotatoFriesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetPotatoFriesTest.swift; sourceTree = "<group>"; };
+		CC70133C20C94E3E004190AB /* PotatoWedges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoWedges.swift; sourceTree = "<group>"; };
+		CC70133E20C94E8B004190AB /* PotatoWedgesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoWedgesTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 				CC70133020C94779004190AB /* WaterTest.swift */,
 				CC70133420C94B08004190AB /* JuiceTest.swift */,
 				CC70133A20C94DA5004190AB /* SweetPotatoFriesTest.swift */,
+				CC70133E20C94E8B004190AB /* PotatoWedgesTest.swift */,
 			);
 			path = BurgerBarTests;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			children = (
 				CC181D6120C9229F003296F3 /* Chips.swift */,
 				CC70133620C94D11004190AB /* SweetPotatoFries.swift */,
+				CC70133C20C94E3E004190AB /* PotatoWedges.swift */,
 			);
 			path = Sides;
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 				CC181D6720C92871003296F3 /* Soda.swift in Sources */,
 				CC181D5E20C6C066003296F3 /* CondimentEnum.swift in Sources */,
 				CC181D7320C92B17003296F3 /* SodaSizeEnum.swift in Sources */,
+				CC70133D20C94E3E004190AB /* PotatoWedges.swift in Sources */,
 				CC70132D20C946C9004190AB /* Water.swift in Sources */,
 				CC181D7120C92AF3003296F3 /* SodaTypeEnum.swift in Sources */,
 				CC70132F20C94767004190AB /* Juice.swift in Sources */,
@@ -291,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC181D6420C922E6003296F3 /* ChipsTest.swift in Sources */,
+				CC70133F20C94E8B004190AB /* PotatoWedgesTest.swift in Sources */,
 				CC70133B20C94DA5004190AB /* SweetPotatoFriesTest.swift in Sources */,
 				CC70133120C94779004190AB /* WaterTest.swift in Sources */,
 				CC181D6920C92887003296F3 /* SodaTest.swift in Sources */,

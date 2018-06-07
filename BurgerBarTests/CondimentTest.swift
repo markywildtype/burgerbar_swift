@@ -26,14 +26,25 @@ class CondimentTest: XCTestCase {
         super.tearDown()
     }
     
-    func testCanUpdatePrice() {
-        condiment.addedToMeal()
-        XCTAssertEqual(condiment.price, 0.30)
-    }
-    
     func testHasCondimentType() {
         XCTAssertEqual(condiment.condimentType, .ketchup)
         XCTAssertEqual(condiment2.condimentType, .mayonnaise)
     }
+    
+    func testInMealStatusStartsFalse() {
+        XCTAssertFalse(condiment.inMeal)
+    }
+    
+    func testAddingToMealUpdatesInMealStatus() {
+        condiment.addToMeal()
+        XCTAssertTrue(condiment.inMeal)
+    }
+    
+    func testAddingToMealUpdatesPrice() {
+        condiment.addToMeal()
+        XCTAssertEqual(condiment.price, 0.30)
+    }
+    
+
     
 }

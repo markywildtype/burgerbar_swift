@@ -20,7 +20,7 @@ class Condiment {
         inMeal = false
     }
  
-    func addedToMeal() {
+    func addToMeal() {
         inMeal = true
         price = 0.30
     }

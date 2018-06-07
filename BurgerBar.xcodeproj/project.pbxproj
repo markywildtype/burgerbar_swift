@@ -12,11 +12,12 @@
 		CC181D3820C6BAF0003296F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC181D3620C6BAF0003296F3 /* Main.storyboard */; };
 		CC181D3A20C6BAF1003296F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC181D3920C6BAF1003296F3 /* Assets.xcassets */; };
 		CC181D3D20C6BAF1003296F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC181D3B20C6BAF1003296F3 /* LaunchScreen.storyboard */; };
-		CC181D5320C6BB31003296F3 /* SideTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D5220C6BB31003296F3 /* SideTest.swift */; };
 		CC181D5520C6BB83003296F3 /* Side.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D5420C6BB83003296F3 /* Side.swift */; };
 		CC181D5720C6BDA5003296F3 /* CondimentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D5620C6BDA5003296F3 /* CondimentTest.swift */; };
 		CC181D5920C6BDC4003296F3 /* Condiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D5820C6BDC4003296F3 /* Condiment.swift */; };
 		CC181D5E20C6C066003296F3 /* CondimentEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D5D20C6C066003296F3 /* CondimentEnum.swift */; };
+		CC181D6220C9229F003296F3 /* Chips.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6120C9229F003296F3 /* Chips.swift */; };
+		CC181D6420C922E6003296F3 /* ChipsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6320C922E6003296F3 /* ChipsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +40,12 @@
 		CC181D3E20C6BAF1003296F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC181D4320C6BAF1003296F3 /* BurgerBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC181D4920C6BAF1003296F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC181D5220C6BB31003296F3 /* SideTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideTest.swift; sourceTree = "<group>"; };
 		CC181D5420C6BB83003296F3 /* Side.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Side.swift; sourceTree = "<group>"; };
 		CC181D5620C6BDA5003296F3 /* CondimentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondimentTest.swift; sourceTree = "<group>"; };
 		CC181D5820C6BDC4003296F3 /* Condiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condiment.swift; sourceTree = "<group>"; };
 		CC181D5D20C6C066003296F3 /* CondimentEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondimentEnum.swift; sourceTree = "<group>"; };
+		CC181D6120C9229F003296F3 /* Chips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chips.swift; sourceTree = "<group>"; };
+		CC181D6320C922E6003296F3 /* ChipsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		CC181D3120C6BAEF003296F3 /* BurgerBar */ = {
 			isa = PBXGroup;
 			children = (
+				CC181D6020C9228A003296F3 /* Sides */,
 				CC181D5C20C6C00C003296F3 /* Condiments */,
 				CC181D3220C6BAEF003296F3 /* AppDelegate.swift */,
 				CC181D3420C6BAF0003296F3 /* ViewController.swift */,
@@ -101,8 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				CC181D4920C6BAF1003296F3 /* Info.plist */,
-				CC181D5220C6BB31003296F3 /* SideTest.swift */,
 				CC181D5620C6BDA5003296F3 /* CondimentTest.swift */,
+				CC181D6320C922E6003296F3 /* ChipsTest.swift */,
 			);
 			path = BurgerBarTests;
 			sourceTree = "<group>";
@@ -114,6 +117,14 @@
 				CC181D5D20C6C066003296F3 /* CondimentEnum.swift */,
 			);
 			path = Condiments;
+			sourceTree = "<group>";
+		};
+		CC181D6020C9228A003296F3 /* Sides */ = {
+			isa = PBXGroup;
+			children = (
+				CC181D6120C9229F003296F3 /* Chips.swift */,
+			);
+			path = Sides;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC181D5E20C6C066003296F3 /* CondimentEnum.swift in Sources */,
+				CC181D6220C9229F003296F3 /* Chips.swift in Sources */,
 				CC181D3520C6BAF0003296F3 /* ViewController.swift in Sources */,
 				CC181D3320C6BAEF003296F3 /* AppDelegate.swift in Sources */,
 				CC181D5520C6BB83003296F3 /* Side.swift in Sources */,
@@ -230,7 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC181D5320C6BB31003296F3 /* SideTest.swift in Sources */,
+				CC181D6420C922E6003296F3 /* ChipsTest.swift in Sources */,
 				CC181D5720C6BDA5003296F3 /* CondimentTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

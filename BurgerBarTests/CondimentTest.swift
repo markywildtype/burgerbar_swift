@@ -31,6 +31,10 @@ class CondimentTest: XCTestCase {
         XCTAssertEqual(condiment2.condimentType, .mayonnaise)
     }
     
+    func testHasPrice() {
+        XCTAssertEqual(condiment.price, 0.50)
+    }
+    
     func testInMealStatusStartsFalse() {
         XCTAssertFalse(condiment.inMeal)
     }

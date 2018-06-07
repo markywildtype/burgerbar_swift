@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Condiment {
+class Condiment: MealItem {
     
     var price: Float
     var inMeal: Bool 

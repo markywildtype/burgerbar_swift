@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Soda {
+class Soda: MealItem {
     
     let sodaType: SodaType
     let sodaSize: SodaSize

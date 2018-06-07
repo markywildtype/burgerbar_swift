@@ -18,7 +18,7 @@ class Chips {
         inMeal = false
     }
     
-    func addedToMeal(){
+    func addToMeal(){
         inMeal = true
         price = 1.00
     }

@@ -23,12 +23,22 @@ class ChipsTest: XCTestCase {
         super.tearDown()
     }
     
-    func testIsNotInMeal() {
+    func testIInMealStatusStartsFalse() {
         XCTAssertFalse(chips.inMeal)
     }
 
     func testHasPrice(){
         XCTAssertEqual(chips.price, 1.99)
+    }
+    
+    func testAddingToMealUpdatesInMealStatus() {
+        chips.addToMeal()
+        XCTAssertTrue(chips.inMeal)
+    }
+    
+    func testAddingToMealUpdatesPrice() {
+        chips.addToMeal()
+        XCTAssertEqual(chips.price, 1.0)
     }
     
 }

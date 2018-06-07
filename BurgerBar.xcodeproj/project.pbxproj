@@ -18,6 +18,9 @@
 		CC181D5E20C6C066003296F3 /* CondimentEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D5D20C6C066003296F3 /* CondimentEnum.swift */; };
 		CC181D6220C9229F003296F3 /* Chips.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6120C9229F003296F3 /* Chips.swift */; };
 		CC181D6420C922E6003296F3 /* ChipsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6320C922E6003296F3 /* ChipsTest.swift */; };
+		CC181D6720C92871003296F3 /* Soda.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6620C92871003296F3 /* Soda.swift */; };
+		CC181D6920C92887003296F3 /* SodaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6820C92887003296F3 /* SodaTest.swift */; };
+		CC181D6F20C92973003296F3 /* SodaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6E20C92973003296F3 /* SodaEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		CC181D5D20C6C066003296F3 /* CondimentEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondimentEnum.swift; sourceTree = "<group>"; };
 		CC181D6120C9229F003296F3 /* Chips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chips.swift; sourceTree = "<group>"; };
 		CC181D6320C922E6003296F3 /* ChipsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsTest.swift; sourceTree = "<group>"; };
+		CC181D6620C92871003296F3 /* Soda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soda.swift; sourceTree = "<group>"; };
+		CC181D6820C92887003296F3 /* SodaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaTest.swift; sourceTree = "<group>"; };
+		CC181D6E20C92973003296F3 /* SodaEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,7 @@
 		CC181D3120C6BAEF003296F3 /* BurgerBar */ = {
 			isa = PBXGroup;
 			children = (
+				CC181D6520C9279F003296F3 /* Beverages */,
 				CC181D6020C9228A003296F3 /* Sides */,
 				CC181D5C20C6C00C003296F3 /* Condiments */,
 				CC181D3220C6BAEF003296F3 /* AppDelegate.swift */,
@@ -106,6 +113,7 @@
 				CC181D4920C6BAF1003296F3 /* Info.plist */,
 				CC181D5620C6BDA5003296F3 /* CondimentTest.swift */,
 				CC181D6320C922E6003296F3 /* ChipsTest.swift */,
+				CC181D6820C92887003296F3 /* SodaTest.swift */,
 			);
 			path = BurgerBarTests;
 			sourceTree = "<group>";
@@ -125,6 +133,15 @@
 				CC181D6120C9229F003296F3 /* Chips.swift */,
 			);
 			path = Sides;
+			sourceTree = "<group>";
+		};
+		CC181D6520C9279F003296F3 /* Beverages */ = {
+			isa = PBXGroup;
+			children = (
+				CC181D6620C92871003296F3 /* Soda.swift */,
+				CC181D6E20C92973003296F3 /* SodaEnum.swift */,
+			);
+			path = Beverages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,10 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC181D6720C92871003296F3 /* Soda.swift in Sources */,
 				CC181D5E20C6C066003296F3 /* CondimentEnum.swift in Sources */,
 				CC181D6220C9229F003296F3 /* Chips.swift in Sources */,
 				CC181D3520C6BAF0003296F3 /* ViewController.swift in Sources */,
 				CC181D3320C6BAEF003296F3 /* AppDelegate.swift in Sources */,
+				CC181D6F20C92973003296F3 /* SodaEnum.swift in Sources */,
 				CC181D5520C6BB83003296F3 /* Side.swift in Sources */,
 				CC181D5920C6BDC4003296F3 /* Condiment.swift in Sources */,
 			);
@@ -243,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC181D6420C922E6003296F3 /* ChipsTest.swift in Sources */,
+				CC181D6920C92887003296F3 /* SodaTest.swift in Sources */,
 				CC181D5720C6BDA5003296F3 /* CondimentTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

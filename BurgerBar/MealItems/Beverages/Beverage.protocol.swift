@@ -10,6 +10,6 @@ import Foundation
 
 protocol Beverage: MealItem {
     
-    var description: String { get }
+//    var description: String { get }
     
 }

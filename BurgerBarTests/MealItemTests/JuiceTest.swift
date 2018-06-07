@@ -30,16 +30,7 @@ class JuiceTest: XCTestCase {
     func testHasPrice() {
         XCTAssertEqual(juice.price, 1.30)
     }
-    
-    func testInMealStatusStartsFalse() {
-        XCTAssertFalse(juice.inMeal)
-    }
-    
-    func testAddingToMealUpdatesInMealStatus() {
-        juice.addToMeal()
-        XCTAssertTrue(juice.inMeal)
-    }
-    
+   
     func testAddingToMealUpdatesPrice() {
         juice.addToMeal()
         XCTAssertEqual(juice.price, 1.00)

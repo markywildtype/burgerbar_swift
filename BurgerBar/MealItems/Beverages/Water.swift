@@ -12,16 +12,13 @@ class Water: Beverage, MealItem {
     
     var description: String
     var price: Float
-    var inMeal: Bool
     
     init(){
         description = "Water"
         price = 0.90
-        inMeal = false
     }
     
     func addToMeal() {
-        inMeal = true
         price = 0.50
     }
     

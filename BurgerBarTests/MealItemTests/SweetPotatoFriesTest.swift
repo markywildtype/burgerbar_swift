@@ -27,19 +27,10 @@ class SweetPotatoFriesTest: XCTestCase {
         XCTAssertEqual(sweetPotatoFries.description, "Sweet potato fries")
     }
     
-    func testInMealStatusStartsFalse() {
-        XCTAssertFalse(sweetPotatoFries.inMeal)
-    }
-    
-    func testHasPrice(){
+   func testHasPrice(){
         XCTAssertEqual(sweetPotatoFries.price, 2.99)
     }
-    
-    func testAddingToMealUpdatesInMealStatus() {
-        sweetPotatoFries.addToMeal()
-        XCTAssertTrue(sweetPotatoFries.inMeal)
-    }
-    
+        
     func testAddingToMealUpdatesPrice() {
         sweetPotatoFries.addToMeal()
         XCTAssertEqual(sweetPotatoFries.price, 2.0)

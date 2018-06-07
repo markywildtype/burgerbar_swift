@@ -12,12 +12,11 @@ class BurgerBar {
     
     var shoppingCart: [MealItem]
     var mealCart: [Meal]
-//    var mealTotal: Float
+    
     
     init() {
         shoppingCart = []
         mealCart = []
-//        mealTotal = 0.00
     }
     
     func addIndividualItemToCart(item: MealItem) {
@@ -30,11 +29,11 @@ class BurgerBar {
     
     func getCartTotal() -> Float {
         var cartTotal: Float = 0.00
-        
+
         for item in shoppingCart {
             cartTotal += item.price
         }
-        
+
         for meal in mealCart {
             cartTotal += meal.getPrice()
         }
@@ -45,4 +44,5 @@ class BurgerBar {
         shoppingCart = []
         mealCart = []
     }
+    
 }

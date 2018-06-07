@@ -8,10 +8,10 @@
 
 import Foundation
 
-enum CondimentType {
+enum CondimentType: String {
     
-    case ketchup
-    case mayonnaise
-    case vinegar
+    case ketchup = "Ketchup"
+    case mayonnaise = "Mayonnaise"
+    case vinegar = "Vinegar"
     
 }

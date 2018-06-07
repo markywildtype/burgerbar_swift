@@ -26,18 +26,9 @@ class ChipsTest: XCTestCase {
     func testHasDescription() {
         XCTAssertEqual(chips.description, "Chips")
     }
-    
-    func testInMealStatusStartsFalse() {
-        XCTAssertFalse(chips.inMeal)
-    }
 
     func testHasPrice(){
         XCTAssertEqual(chips.price, 1.99)
-    }
-    
-    func testAddingToMealUpdatesInMealStatus() {
-        chips.addToMeal()
-        XCTAssertTrue(chips.inMeal)
     }
     
     func testAddingToMealUpdatesPrice() {

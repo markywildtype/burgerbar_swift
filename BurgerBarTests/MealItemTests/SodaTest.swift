@@ -38,15 +38,6 @@ class SodaTest: XCTestCase {
         XCTAssertEqual(soda2.price, 2.50)
     }
     
-    func testInMealStatusStartsFalse() {
-        XCTAssertFalse(soda.inMeal)
-    }
-    
-    func testAddingToMealUpdatesInMealStatus() {
-        soda.addToMeal()
-        XCTAssertTrue(soda.inMeal)
-    }
-    
     func testAddingToMealUpdatesPrice() {
         soda.addToMeal()
         XCTAssertEqual(soda.price, 1.10)

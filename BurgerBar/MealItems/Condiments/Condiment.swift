@@ -8,20 +8,19 @@
 
 import Foundation
 
-class Condiment: MealItem {
+class Condiment: MealItem {    
     
+    var description: String
     var price: Float
-    var inMeal: Bool 
     let condimentType: CondimentType
     
     init(type: CondimentType){
         condimentType = type
+        description = condimentType.rawValue
         price = 0.50
-        inMeal = false
     }
  
     func addToMeal() {
-        inMeal = true
         price = 0.30
     }
     

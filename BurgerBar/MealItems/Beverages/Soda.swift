@@ -14,18 +14,15 @@ class Soda: Beverage, MealItem {
     var sodaType: SodaType
     var sodaSize: SodaSize
     var price: Float 
-    var inMeal: Bool
     
     init(type: SodaType, size: SodaSize) {
         sodaType = type
         sodaSize = size
         price = sodaSize.rawValue
-        inMeal = false
         description = sodaType.rawValue
     }
     
     func addToMeal() {
-        inMeal = true
         price = price - 0.40
     }
     

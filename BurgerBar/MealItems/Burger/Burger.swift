@@ -13,7 +13,6 @@ class Burger: MealItem {
     var description: String
     var burgerType: BurgerType
     var price: Float
-    var inMeal: Bool
     
     init(type: BurgerType) {
         burgerType = type
@@ -28,11 +27,9 @@ class Burger: MealItem {
             description = "Veggieburger"
         }
         price = burgerType.rawValue
-        inMeal = false
     }
     
     func addToMeal() {
-        inMeal = true
         price = price - 1.50
     }
 }

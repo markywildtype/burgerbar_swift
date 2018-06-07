@@ -27,19 +27,10 @@ class PotatoWedgesTest: XCTestCase {
         XCTAssertEqual(potatoWedges.description, "Potato wedges")
     }
     
-    func testInMealStatusStartsFalse() {
-        XCTAssertFalse(potatoWedges.inMeal)
-    }
-    
     func testHasPrice(){
         XCTAssertEqual(potatoWedges.price, 1.49)
     }
-    
-    func testAddingToMealUpdatesInMealStatus() {
-        potatoWedges.addToMeal()
-        XCTAssertTrue(potatoWedges.inMeal)
-    }
-    
+        
     func testAddingToMealUpdatesPrice() {
         potatoWedges.addToMeal()
         XCTAssertEqual(potatoWedges.price, 1.09)

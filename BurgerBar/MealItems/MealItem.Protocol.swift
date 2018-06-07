@@ -10,9 +10,8 @@ import Foundation
 
 protocol MealItem {
     
+    var description: String { get }
     var price: Float { get set }
-    var inMeal: Bool { get set }
     
     func addToMeal()
-    
 }

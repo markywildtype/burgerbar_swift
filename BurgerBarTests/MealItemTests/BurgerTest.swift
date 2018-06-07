@@ -39,15 +39,6 @@ class BurgerTest: XCTestCase {
         XCTAssertEqual(burger2.price, 6.95)
     }
     
-    func testInMealStatusStartsFalse() {
-        XCTAssertFalse(burger.inMeal)
-    }
-    
-    func testAddingToMealUpdatesInMealStatus() {
-        burger.addToMeal()
-        XCTAssertTrue(burger.inMeal)
-    }
-    
     func testAddingToMealUpdatesPrice() {
         burger2.addToMeal()
         XCTAssertEqual(burger2.price, 5.45)

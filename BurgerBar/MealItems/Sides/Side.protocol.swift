@@ -10,6 +10,6 @@ import Foundation
 
 protocol Side: MealItem {
    
-    var description: String { get }
-    
+//    var description: String { get }
+
 }

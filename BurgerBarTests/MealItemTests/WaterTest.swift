@@ -27,15 +27,6 @@ class WaterTest: XCTestCase {
         XCTAssertEqual(water.price, 0.90)
     }
     
-    func testInMealStatusStartsFalse() {
-        XCTAssertFalse(water.inMeal)
-    }
-    
-    func testAddingToMealUpdatesInMealStatus() {
-        water.addToMeal()
-        XCTAssertTrue(water.inMeal)
-    }
-    
     func testAddingToMealUpdatesPrice() {
         water.addToMeal()
         XCTAssertEqual(water.price, 0.50)

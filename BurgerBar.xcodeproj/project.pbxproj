@@ -19,18 +19,23 @@
 		CC181D6420C922E6003296F3 /* ChipsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6320C922E6003296F3 /* ChipsTest.swift */; };
 		CC181D6720C92871003296F3 /* Soda.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6620C92871003296F3 /* Soda.swift */; };
 		CC181D6920C92887003296F3 /* SodaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D6820C92887003296F3 /* SodaTest.swift */; };
-		CC181D7120C92AF3003296F3 /* SodaTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D7020C92AF3003296F3 /* SodaTypeEnum.swift */; };
-		CC181D7320C92B17003296F3 /* SodaSizeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D7220C92B17003296F3 /* SodaSizeEnum.swift */; };
+		CC181D7120C92AF3003296F3 /* SodaType.Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D7020C92AF3003296F3 /* SodaType.Enum.swift */; };
+		CC181D7320C92B17003296F3 /* SodaSize.Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D7220C92B17003296F3 /* SodaSize.Enum.swift */; };
 		CC181D7520C9331F003296F3 /* MealItem.Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC181D7420C9331F003296F3 /* MealItem.Protocol.swift */; };
 		CC70132D20C946C9004190AB /* Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70132C20C946C9004190AB /* Water.swift */; };
 		CC70132F20C94767004190AB /* Juice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70132E20C94767004190AB /* Juice.swift */; };
 		CC70133120C94779004190AB /* WaterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133020C94779004190AB /* WaterTest.swift */; };
-		CC70133320C94AC5004190AB /* JuiceTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133220C94AC5004190AB /* JuiceTypeEnum.swift */; };
+		CC70133320C94AC5004190AB /* JuiceType.Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133220C94AC5004190AB /* JuiceType.Enum.swift */; };
 		CC70133520C94B08004190AB /* JuiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133420C94B08004190AB /* JuiceTest.swift */; };
 		CC70133720C94D11004190AB /* SweetPotatoFries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133620C94D11004190AB /* SweetPotatoFries.swift */; };
 		CC70133B20C94DA5004190AB /* SweetPotatoFriesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133A20C94DA5004190AB /* SweetPotatoFriesTest.swift */; };
 		CC70133D20C94E3E004190AB /* PotatoWedges.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133C20C94E3E004190AB /* PotatoWedges.swift */; };
 		CC70133F20C94E8B004190AB /* PotatoWedgesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70133E20C94E8B004190AB /* PotatoWedgesTest.swift */; };
+		CC70134120C94F79004190AB /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70134020C94F79004190AB /* Meal.swift */; };
+		CC70134520C9502F004190AB /* MealTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70134420C9502F004190AB /* MealTest.swift */; };
+		CC70134720C955ED004190AB /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70134620C955ED004190AB /* Burger.swift */; };
+		CC70134920C95658004190AB /* BurgerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70134820C95658004190AB /* BurgerTest.swift */; };
+		CC70134C20C957E1004190AB /* BurgerType.Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70134B20C957E1004190AB /* BurgerType.Enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,18 +65,23 @@
 		CC181D6320C922E6003296F3 /* ChipsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsTest.swift; sourceTree = "<group>"; };
 		CC181D6620C92871003296F3 /* Soda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soda.swift; sourceTree = "<group>"; };
 		CC181D6820C92887003296F3 /* SodaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaTest.swift; sourceTree = "<group>"; };
-		CC181D7020C92AF3003296F3 /* SodaTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaTypeEnum.swift; sourceTree = "<group>"; };
-		CC181D7220C92B17003296F3 /* SodaSizeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaSizeEnum.swift; sourceTree = "<group>"; };
+		CC181D7020C92AF3003296F3 /* SodaType.Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaType.Enum.swift; sourceTree = "<group>"; };
+		CC181D7220C92B17003296F3 /* SodaSize.Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaSize.Enum.swift; sourceTree = "<group>"; };
 		CC181D7420C9331F003296F3 /* MealItem.Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealItem.Protocol.swift; sourceTree = "<group>"; };
 		CC70132C20C946C9004190AB /* Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water.swift; sourceTree = "<group>"; };
 		CC70132E20C94767004190AB /* Juice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Juice.swift; sourceTree = "<group>"; };
 		CC70133020C94779004190AB /* WaterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTest.swift; sourceTree = "<group>"; };
-		CC70133220C94AC5004190AB /* JuiceTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuiceTypeEnum.swift; sourceTree = "<group>"; };
+		CC70133220C94AC5004190AB /* JuiceType.Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuiceType.Enum.swift; sourceTree = "<group>"; };
 		CC70133420C94B08004190AB /* JuiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuiceTest.swift; sourceTree = "<group>"; };
 		CC70133620C94D11004190AB /* SweetPotatoFries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetPotatoFries.swift; sourceTree = "<group>"; };
 		CC70133A20C94DA5004190AB /* SweetPotatoFriesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetPotatoFriesTest.swift; sourceTree = "<group>"; };
 		CC70133C20C94E3E004190AB /* PotatoWedges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoWedges.swift; sourceTree = "<group>"; };
 		CC70133E20C94E8B004190AB /* PotatoWedgesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoWedgesTest.swift; sourceTree = "<group>"; };
+		CC70134020C94F79004190AB /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		CC70134420C9502F004190AB /* MealTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTest.swift; sourceTree = "<group>"; };
+		CC70134620C955ED004190AB /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
+		CC70134820C95658004190AB /* BurgerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerTest.swift; sourceTree = "<group>"; };
+		CC70134B20C957E1004190AB /* BurgerType.Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerType.Enum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,11 +123,9 @@
 		CC181D3120C6BAEF003296F3 /* BurgerBar */ = {
 			isa = PBXGroup;
 			children = (
-				CC181D6520C9279F003296F3 /* Beverages */,
-				CC181D6020C9228A003296F3 /* Sides */,
-				CC181D5C20C6C00C003296F3 /* Condiments */,
+				CC70134220C94FA4004190AB /* MealItems */,
 				CC181D3220C6BAEF003296F3 /* AppDelegate.swift */,
-				CC181D7420C9331F003296F3 /* MealItem.Protocol.swift */,
+				CC70134020C94F79004190AB /* Meal.swift */,
 				CC181D3420C6BAF0003296F3 /* ViewController.swift */,
 				CC181D3620C6BAF0003296F3 /* Main.storyboard */,
 				CC181D3920C6BAF1003296F3 /* Assets.xcassets */,
@@ -130,14 +138,9 @@
 		CC181D4620C6BAF1003296F3 /* BurgerBarTests */ = {
 			isa = PBXGroup;
 			children = (
+				CC70134320C95002004190AB /* MealItemTests */,
 				CC181D4920C6BAF1003296F3 /* Info.plist */,
-				CC181D5620C6BDA5003296F3 /* CondimentTest.swift */,
-				CC181D6320C922E6003296F3 /* ChipsTest.swift */,
-				CC181D6820C92887003296F3 /* SodaTest.swift */,
-				CC70133020C94779004190AB /* WaterTest.swift */,
-				CC70133420C94B08004190AB /* JuiceTest.swift */,
-				CC70133A20C94DA5004190AB /* SweetPotatoFriesTest.swift */,
-				CC70133E20C94E8B004190AB /* PotatoWedgesTest.swift */,
+				CC70134420C9502F004190AB /* MealTest.swift */,
 			);
 			path = BurgerBarTests;
 			sourceTree = "<group>";
@@ -165,13 +168,49 @@
 			isa = PBXGroup;
 			children = (
 				CC181D6620C92871003296F3 /* Soda.swift */,
-				CC181D7020C92AF3003296F3 /* SodaTypeEnum.swift */,
-				CC181D7220C92B17003296F3 /* SodaSizeEnum.swift */,
+				CC181D7020C92AF3003296F3 /* SodaType.Enum.swift */,
+				CC181D7220C92B17003296F3 /* SodaSize.Enum.swift */,
 				CC70132C20C946C9004190AB /* Water.swift */,
 				CC70132E20C94767004190AB /* Juice.swift */,
-				CC70133220C94AC5004190AB /* JuiceTypeEnum.swift */,
+				CC70133220C94AC5004190AB /* JuiceType.Enum.swift */,
 			);
 			path = Beverages;
+			sourceTree = "<group>";
+		};
+		CC70134220C94FA4004190AB /* MealItems */ = {
+			isa = PBXGroup;
+			children = (
+				CC70134A20C957C1004190AB /* Burger */,
+				CC181D6520C9279F003296F3 /* Beverages */,
+				CC181D6020C9228A003296F3 /* Sides */,
+				CC181D5C20C6C00C003296F3 /* Condiments */,
+				CC181D7420C9331F003296F3 /* MealItem.Protocol.swift */,
+			);
+			path = MealItems;
+			sourceTree = "<group>";
+		};
+		CC70134320C95002004190AB /* MealItemTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC181D5620C6BDA5003296F3 /* CondimentTest.swift */,
+				CC181D6320C922E6003296F3 /* ChipsTest.swift */,
+				CC181D6820C92887003296F3 /* SodaTest.swift */,
+				CC70133020C94779004190AB /* WaterTest.swift */,
+				CC70133420C94B08004190AB /* JuiceTest.swift */,
+				CC70133A20C94DA5004190AB /* SweetPotatoFriesTest.swift */,
+				CC70133E20C94E8B004190AB /* PotatoWedgesTest.swift */,
+				CC70134820C95658004190AB /* BurgerTest.swift */,
+			);
+			path = MealItemTests;
+			sourceTree = "<group>";
+		};
+		CC70134A20C957C1004190AB /* Burger */ = {
+			isa = PBXGroup;
+			children = (
+				CC70134620C955ED004190AB /* Burger.swift */,
+				CC70134B20C957E1004190AB /* BurgerType.Enum.swift */,
+			);
+			path = Burger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,18 +317,21 @@
 			files = (
 				CC181D6720C92871003296F3 /* Soda.swift in Sources */,
 				CC181D5E20C6C066003296F3 /* CondimentEnum.swift in Sources */,
-				CC181D7320C92B17003296F3 /* SodaSizeEnum.swift in Sources */,
+				CC181D7320C92B17003296F3 /* SodaSize.Enum.swift in Sources */,
 				CC70133D20C94E3E004190AB /* PotatoWedges.swift in Sources */,
 				CC70132D20C946C9004190AB /* Water.swift in Sources */,
-				CC181D7120C92AF3003296F3 /* SodaTypeEnum.swift in Sources */,
+				CC181D7120C92AF3003296F3 /* SodaType.Enum.swift in Sources */,
+				CC70134120C94F79004190AB /* Meal.swift in Sources */,
 				CC70132F20C94767004190AB /* Juice.swift in Sources */,
 				CC181D6220C9229F003296F3 /* Chips.swift in Sources */,
 				CC181D3520C6BAF0003296F3 /* ViewController.swift in Sources */,
 				CC181D3320C6BAEF003296F3 /* AppDelegate.swift in Sources */,
-				CC70133320C94AC5004190AB /* JuiceTypeEnum.swift in Sources */,
+				CC70133320C94AC5004190AB /* JuiceType.Enum.swift in Sources */,
 				CC181D7520C9331F003296F3 /* MealItem.Protocol.swift in Sources */,
 				CC70133720C94D11004190AB /* SweetPotatoFries.swift in Sources */,
+				CC70134720C955ED004190AB /* Burger.swift in Sources */,
 				CC181D5920C6BDC4003296F3 /* Condiment.swift in Sources */,
+				CC70134C20C957E1004190AB /* BurgerType.Enum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC70134520C9502F004190AB /* MealTest.swift in Sources */,
 				CC181D6420C922E6003296F3 /* ChipsTest.swift in Sources */,
 				CC70133F20C94E8B004190AB /* PotatoWedgesTest.swift in Sources */,
 				CC70133B20C94DA5004190AB /* SweetPotatoFriesTest.swift in Sources */,
@@ -304,6 +347,7 @@
 				CC181D6920C92887003296F3 /* SodaTest.swift in Sources */,
 				CC181D5720C6BDA5003296F3 /* CondimentTest.swift in Sources */,
 				CC70133520C94B08004190AB /* JuiceTest.swift in Sources */,
+				CC70134920C95658004190AB /* BurgerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,10 +12,12 @@ import XCTest
 class SodaTest: XCTestCase {
     
     var soda: Soda!
+    var soda2: Soda!
     
     override func setUp() {
         super.setUp()
         soda = Soda(type: .cola, size: .medium)
+        soda2 = Soda(type: .irnBru, size: .extraLarge)
     }
     
     override func tearDown() {
@@ -33,6 +35,7 @@ class SodaTest: XCTestCase {
     
     func testHasPrice() {
         XCTAssertEqual(soda.price, 1.50)
+        XCTAssertEqual(soda2.price, 2.50)
     }
     
     func testInMealStatusStartsFalse() {
